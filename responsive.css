@@ -1,12 +1,9 @@
-@media (max-width: 320px) {
-    
-}
+@media (min-width: 0px) and (max-width: 320px){}
+@media (min-width: 321px) and (max-width: 375px) {}
 
-@media (max-width: 375px) {}
+@media (min-width: 376px) and (max-width: 425px) {}
 
-@media (max-width: 425px) {}
-
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 768px) {
     .features {
         display: flex;
         flex-direction: row;
@@ -14,7 +11,7 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 769px)and (max-width: 1024px) {
     .features {
         display: flex;
         flex-direction: row;
@@ -22,7 +19,7 @@
     }
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1025px) and (max-width: 1440px) {
     .features {
         display: flex;
         flex-direction: row;
